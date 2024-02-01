@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+/* CSS document*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+}
+
+.logotipo {
+  height: 150px;
+  padding-left: 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+header {
+  height: 600px;
+  background-image: url(img/);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.titulo {
+  margin-bottom: 40px;
+}
+
+.logotipoheader {
+  width: 600px;
+  padding-top: 3rem;
+}
+
+.img-fluid:hover {
+  transform: skewX(-5deg);
+  transform: scale(1.2);
+}
+
+.contenedor-marketingdigital {
+  margin-top: 60px;
+}
+
+.content-latido {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(000, 250, 250);
+  animation-name: backgroudcolor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes backgroudcolor {
+  20% {
+    background-color: rgb(200, 250, 50);
+  }
+  50% {
+    background-color: rgb(230, 150, 50);
+  }
+}
+
+.contenedor-texto {
+  color: white;
+  height: 300px;
+  padding-top: 200px;
+}
+
+.cont-servicios {
+  padding-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  height: 650%;
+  background-color: #eae8e8;
+}
+
+.texto-seo {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.logofooter {
+  width: 300px;
+}
+
+footer {
+  height: 750px;
+  background-color: #eae8e8;
+  padding-top: 150px;
+}
+
+.presupuesto-footer a {
+  text-decoration: none;
+  color: dimgrey;
+}
+
+.presupuesto-footer a:hover {
+  text-decoration: underline;
+}
+
+.presupuesto-footer h3 {
+  margin-bottom: 40px;
+  color: dimgrey;
+}
+
+.presupuesto-footer p {
+  margin-top: 120px;
+  font-size: 14px;
+}
+
+.contenedor-formulario h2 {
+  margin-bottom: 60px;
+}
+
+.contenedor-formulario {
+  padding: 30px;
+  margin: 50px 0px 0px 0px;
+  background-color: azure;
+  height: 300px;
+}
+
+.boton-enviar {
+  background-color: black;
+  padding: 5px 25px 5px 25px;
+  border-radius: 5px;
+  color: aliceblue;
+  margin-top: 40px;
+}
+
+.acerca-de .foto .nombre{
+  color: grey;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.acerca-de .info .label{
+  font-size: 18px;
+  font-weight: 600;
+  color:#005385;
+}
+.acerca-de .info .progress{
+  background-color: #005385;
+  border-radius: 0;
+  height: 25px;
+}
+.acerca-de .info .progress .progress-bar{
+  background: #3da5e2;
+  line-height: 25px;
+  padding-left: 20px;
+}
+
+.titulo{
+  margin: 1rem;
+  color: #3da5e2;
+}
+
+
+.contacto{
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+
+.contacto .formulario input[type="text"];
+.contacto .formulario input[type="email"];
+.contacto .formulario textarea{
+  padding: 15px;
+  border: none;
+
+}
+
+.contacto .formulario textarea{
+ height: 150px;
+ min-height: 150px;
+ max-height: 150px;
+
+}
+
+.contacto .formulario .boton{
+  cursor: pointer;
+  width: auto;
+  background: #3da5e2;
+ border: none;
+
+}
+
+.contacto .formulario .boton:hover{
+  background: #002d44;
+}
+
+.redes-sociales{
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.redes-sociales .icono{
+  width: 80px;
+  height: 80px;
+  color: white;
+  background:gray;
+  display: inline-block;
+  margin: 0 20px;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all .3s ease;
+}
+
+@media screen and (max-width: 567px ){
+
+  .redes-sociales .icono{
+      width: 30px;
+  height: 30px;
+  margin: 0 0px;
+
+  }
+
+}
+
+.presupuesto-footer .presupuesto{
+  color: black;
+
+}
